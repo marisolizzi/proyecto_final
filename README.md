@@ -9,4 +9,17 @@ Posée una estructrua básica de Marca y Producto. Los celulares (producto final
 También posee un login de usuarios y un módulo o sección de administración, que permite editar el catálogo y los usuarios del sisitema.
 
 De acuerdo a lo descripto anteriormente, posee una vista Publica y otra Privada.
-Los usuarios que acceden verán las Marcas y Productos. Mientras al logearse,además de la vista pública podrán acceder al sisitema de gestión del catálogo.
+Los usuarios que acceden verán las Marcas y Productos. Mientras que al logearse, además de la vista pública podrán acceder al sisitema de gestión del catálogo.
+
+Fue desarrollado en Python utilizando el framework Django.
+
+Internamente posee 3 Apps:
+ <li>Catalogo, donde se encuentran los modelos, vistas y demás que engloban al catálogo propiamente dicho.</li>
+ <li>Usuario, donde se manejan las vistas, urls y demás para la gestión de usuarios. En este caso el modelo utilizado es User, nativo de django.</li>
+ <li>Sitio, donde se menejan los archivos genéricos que dan forma al sitio, por ejemplo el directorio estátcio (static), el template base, etc.</li>
+
+ Vale aclarar que cada App también posee sus templates. Los templates son html. 
+
+ A continuación agunas pantallas:
+
+ 
