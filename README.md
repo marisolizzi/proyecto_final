@@ -27,16 +27,16 @@ Los usuarios que acceden verán las Marcas y Productos. Mientras que al logearse
 <p> <strong>Algunas pantallas</strong></p>
 <p>Inicio de la web, donde se visualizan las marcas.<br>
 
-<span>(</span><span>[https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png](https://github.com/marisolizzi/proyecto_final/assets/70345802/080944f0-988d-4e83-9599-703e77ebb994)</span><span>)</span>
+<span>(</span><span>(https://github.com/marisolizzi/proyecto_final/assets/70345802/080944f0-988d-4e83-9599-703e77ebb994)</span><span>)</span>
 
 <p>Vista de los modelos por Marca.<br>
 
- <span>(</span><span>[https://github.com/marisolizzi/proyecto_final/assets/70345802/080944f0-988d-4e83-9599-703e77ebb994](https://github.com/marisolizzi/proyecto_final/assets/70345802/037a717c-1e6a-4ee2-97f1-1fd1a5a5edc2))</span><span>)</span>
+ <span>(</span><span>(https://github.com/marisolizzi/proyecto_final/assets/70345802/037a717c-1e6a-4ee2-97f1-1fd1a5a5edc2)</span><span>)</span>
 
  
 <p>Vista de la información ampliada del modelo.<br>
 
- <span>![</span><span>Aquí la descripción de la imagen por si no carga</span><span>]</span><span>(</span><span>[https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png](https://github.com/marisolizzi/proyecto_final/assets/70345802/1d2554c5-e1a4-4c4b-b760-3d27222bd34e)</span><span>)</span>
+ <span>(</span><span>(https://github.com/marisolizzi/proyecto_final/assets/70345802/1d2554c5-e1a4-4c4b-b760-3d27222bd34e)</span><span>)</span>
 
 
 
