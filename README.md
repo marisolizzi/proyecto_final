@@ -1,4 +1,4 @@
-<strong>Sobre el proyecto</strong>
+<h1>Sobre el proyecto</h1>
 
 <p>Este proyecto es realizado como proyecto final del curso de <strong>Python</strong> de <strong>CoderHouse</strong>.</p>
 <p>Fue terminado el 08 de febrero de 2024.</p>
@@ -11,7 +11,7 @@
 Los usuarios que acceden verán las Marcas y Productos. Mientras que al logearse, además de la vista pública podrán acceder al sistema de gestión del catálogo.
 
 
-<strong>Características del desarrollo</strong>
+<h1>Características del desarrollo</h1>
 
 <p>Fueron respetadas en su totalidad las consignas del curso para el proyecto final.</p>
 <p>Fue desarrollado en Python utilizando el framework Django. El manejador de base de datos es Sqlite3.</p>
@@ -24,22 +24,22 @@ Los usuarios que acceden verán las Marcas y Productos. Mientras que al logearse
 </p>
  <p>Vale aclarar que cada App también posee sus Templates. Los Templates son HTML.</p> 
 
-<p> <strong>Algunas pantallas</strong></p>
-<p>Inicio de la web, donde se visualizan las marcas.<br>
-
+<h1>Pantallas</h1>h1>
+<p>Inicio de la web, donde se visualizan las marcas.</p>
+<br>
 <img src="https://github.com/marisolizzi/proyecto_final/assets/70345802/080944f0-988d-4e83-9599-703e77ebb994">
-
-<p>Vista de los modelos por Marca.<br>
-
+<br>
+<p>Vista de los modelos por Marca.</p>
+<br>
  <img src="https://github.com/marisolizzi/proyecto_final/assets/70345802/037a717c-1e6a-4ee2-97f1-1fd1a5a5edc2">
 
- 
-<p>Vista de la información ampliada del modelo.<br>
-
+ <br>
+<p>Vista de la información ampliada del modelo.</p>
+<br>
  <img src="https://github.com/marisolizzi/proyecto_final/assets/70345802/1d2554c5-e1a4-4c4b-b760-3d27222bd34e">
+<br>
 
-
-<p>Vista del Login de Usuario.<br>
+<p>Vista del Login de Usuario.</p>
 <img src="https://github.com/marisolizzi/proyecto_final/assets/70345802/1a3b8476-8098-4801-9f85-78552ef36767"></p>
 <p>Vistas de la gestión de contenidos (Marcas, Modelos y Usuarios)<br>
 <img src="https://github.com/marisolizzi/proyecto_final/assets/70345802/bf6c5e1f-8663-4e6f-8004-f29101ded7d8"><br>
