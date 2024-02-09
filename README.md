@@ -1,13 +1,13 @@
 <strong>Sobre el proyecto</strong>
 
-Este proyecto es realizado como proyecto final del curso de <strong>Python</strong> de </strong>CoderHouse</strong>.
-Fue terminado el 08 de febrero de 2024.
-Fue desarrollado por Marisol Izzi. 
-Básicamente es un catálogo, en este caso de celulares, pero que puede ser cualquier otro producto o contenido.
-Posée una estructrua básica de Marca y Producto. Los celulares (producto final) se encuentran asociados a una Marca.
-También posee un login de usuarios y un módulo o sección de administración, que permite editar el catálogo y los usuarios del sisitema.
+<p>Este proyecto es realizado como proyecto final del curso de <strong>Python</strong> de <strong>CoderHouse</strong>.</p>
+<p>Fue terminado el 08 de febrero de 2024.</p>
+<p>Fue desarrollado por Marisol Izzi. </p>
+<p>Básicamente es un catálogo, en este caso de celulares, pero que puede ser cualquier otro producto o contenido.</p>
+Posée una estructrua básica de Marca y Producto. Los celulares (producto final) se encuentran asociados a una Marca.</p>
+<p>También posee un login de usuarios y un módulo o sección de administración, que permite editar el catálogo y los usuarios del sisitema.</p>
 
-De acuerdo a lo descripto anteriormente, posee una vista Publica y otra Privada.
+<p>De acuerdo a lo descripto anteriormente, posee una vista Publica y otra Privada.
 Los usuarios que acceden verán las Marcas y Productos. Mientras que al logearse, además de la vista pública podrán acceder al sisitema de gestión del catálogo.
 
 
