@@ -9,9 +9,9 @@
 Los usuarios que acceden verán las Marcas y Productos. Mientras que al logearse, además de la vista pública podrán acceder al sistema de gestión del catálogo.
 <h1>Características del desarrollo</h1>
 <p>Fueron respetadas en su totalidad las consignas del curso para el proyecto final.</p>
-<p>Fue desarrollado en Python utilizando el framework Django. El manejador de base de datos es Sqlite3.</p>
+<p>Fue desarrollado en Python utilizando el framework Django. La Base de datos es Sqlite3.</p>
 <p>Para el css se utilizó Bootstrap y algunos estilos extraídos de la web y adaptados a la aplicación.</p>
-<p>Fueron realizados los CRUDS para cada modelo, incluyendo imagen para las Marcas y Modelo.</p>
+<p>Fueron realizados los CRUD para cada modelo, incluyendo upload de imagen para las Marcas y Modelo.</p>
 <p>Internamente posee 3 Apps:</p>
  <li>Catalogo, donde se encuentran los modelos, vistas y demás que engloban al catálogo propiamente dicho.</li>
  <li>Usuario, donde se manejan las vistas, urls y demás para la gestión de usuarios. En este caso el modelo utilizado es User, nativo de django.</li>
@@ -19,7 +19,7 @@ Los usuarios que acceden verán las Marcas y Productos. Mientras que al logearse
 </p>
 <p>Vale aclarar que cada App también posee sus Templates. Los Templates son HTML.</p> 
 <h1>Pantallas</h1>
-<h2>Inicio de la web, donde se visualizan las marcas.</h2>
+<h2>Vista de la Home, donde se visualizan las marcas.</h2>
 <br>
 <img src="https://github.com/marisolizzi/proyecto_final/assets/70345802/080944f0-988d-4e83-9599-703e77ebb994">
 <br>
