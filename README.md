@@ -25,15 +25,15 @@ Los usuarios que acceden verán las Marcas y Productos. Mientras que al logearse
  <p>Vale aclarar que cada App también posee sus Templates. Los Templates son HTML.</p> 
 
 <p> <strong>Algunas pantallas</strong></p>
-Inicio de la web, donde se visualizan las marcas.
+<p>Inicio de la web, donde se visualizan las marcas.</p>
 ![pantalla1](https://github.com/marisolizzi/proyecto_final/assets/70345802/080944f0-988d-4e83-9599-703e77ebb994)
-Vista de los modelos por Marca.
+<p>Vista de los modelos por Marca.</p>
 ![pantalla2](https://github.com/marisolizzi/proyecto_final/assets/70345802/037a717c-1e6a-4ee2-97f1-1fd1a5a5edc2)
-Vista de la información ampliada del modelo.
+<p>Vista de la información ampliada del modelo.</p>
 ![pantalla3](https://github.com/marisolizzi/proyecto_final/assets/70345802/1d2554c5-e1a4-4c4b-b760-3d27222bd34e)
-Vista del Login de Usuario
+<p>Vista del Login de Usuario</p>
 ![pantalla4](https://github.com/marisolizzi/proyecto_final/assets/70345802/1a3b8476-8098-4801-9f85-78552ef36767)
-Vistas de la gestión de contenidos (Marcas, Modelos y Usuarios)
+<p>Vistas de la gestión de contenidos (Marcas, Modelos y Usuarios)</p>
 ![pantalla5](https://github.com/marisolizzi/proyecto_final/assets/70345802/bf6c5e1f-8663-4e6f-8004-f29101ded7d8)
 ![pantalla6](https://github.com/marisolizzi/proyecto_final/assets/70345802/4cde8b21-71a4-4f4d-9dc5-5063ff1cb9b3)
 ![pantalla7](https://github.com/marisolizzi/proyecto_final/assets/70345802/0eb43429-0297-4bf7-b1b9-bd661b6d1e61)
