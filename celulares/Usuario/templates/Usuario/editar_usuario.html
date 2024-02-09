@@ -1,0 +1,44 @@
+{% extends 'Sitio/base.html'%}
+{% load static %}
+{% block bloquePrincipal%}
+<div id="cabezal-marcas" class="marcas-centradas">  
+<h3 class="seccion-titulo">Editar Usuario {{ usuario.username }}</h3>
+{% include 'Catalogo/menu_gestion.html' %}
+<section class="contact section-bg">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-5 col-md-7">
+          {% if mensaje %}
+            <div class="my-3">
+            <div class="sent-message" style="color:#ffffff;background-color:goldenrod;padding:10px;">
+                {{ mensaje}}
+            </div>
+        </div>
+        {% endif %}
+          <form action="{% url 'Editar Usuario' usuario.id %}" method="post" role="form" class="php-email-form">
+            <div class="form-group mt-3">
+                {{ formulario.password1 }}
+            </div>
+            <div class="form-group mt-3">
+                {{ formulario.password2 }}
+            </div>
+            <div class="form-group mt-3">
+                {{ formulario.email }}
+            </div>
+            <div class="form-group mt-3">
+                {{ formulario.first_name }}
+            </div>
+            <div class="form-group mt-3">
+                {{ formulario.last_name }}
+            </div>
+            <div class="text-center mt-3">
+                {% csrf_token %}
+                <button type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+     </div>
+    </div>
+  </section>
+</div>
+{% endblock%}

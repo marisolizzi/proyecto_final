@@ -1,0 +1,33 @@
+{% extends 'Sitio/base.html'%}
+{% load static %}
+{% block bloquePrincipal%}
+<div id="cabezal-marcas" class="marcas-centradas">  
+<h3 class="seccion-titulo">Lista de Marcas ({{ cantidad }})</h3>
+{% include 'Catalogo/menu_gestion.html' %}
+{% if mensaje %}
+<div class="my-3">
+    <div class="sent-message" style="color:#ffffff;background-color:goldenrod;padding:10px;">
+        {{ mensaje}}
+    </div>
+</div>
+{% endif %}
+
+    <div class="contenedor_listado">  
+    <div class="container">
+         <div class="row">
+              <div class="col-10"><strong>Nombre</strong></div>
+              <div class="col-1">&nbsp;</div>
+              <div class="col-1">&nbsp;</div>
+              <div class="w-100"></div>
+              {% for marca in marcas %}
+              <div class="col-10">{{ marca.nombre }}</div>
+              <div class="col-1"><a href="javascript:eliminar_marca('{% url 'Eliminar Marca' marca.id %}')">Eliminar</a></div>
+              <div class="col-1"><a href="{% url 'Editar Marca' marca.id %}">Editar</a></div>
+              <div class="w-100"></div>
+              {% endfor %}
+          </div>
+        </div>  
+</div>
+
+</div>
+{% endblock%}

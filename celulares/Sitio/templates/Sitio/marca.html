@@ -1,0 +1,51 @@
+
+{% extends 'Sitio/base.html'%}
+{% load static %}
+{% block bloquePrincipal%}
+<div id="cabezal-marcas" class="marcas-centradas">     
+    <h3 class="seccion-titulo">{{ titulo }}</h3>
+    <h3 class="seccion-descrip">Utiliza el buscador para localizar tu modelo.</h3>
+    <div class="modelos">
+        <div class="marca-imagen">
+            <img src="/media/{{ marca.imagen }}" alt="{{ marca.nombre }}">
+            <form action="{% url 'Marca' marca.id %}" method="post" >
+            <input id="input" type="text" placeholder="Buscar.." name="search" value="" maxlength="20">
+            {% if reset %}<a href="{% url 'Marca' marca.id %}" style="font-size: 11px;">Reset Búsqueda</a></a>{% endif %}
+            {% csrf_token %}
+            </form>
+        </div>
+        {% if cantidad == 0 %}   
+        <br>          
+        <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-12 col-md-7">
+                <div class="my-12">
+                    <div class="sent-message" style="color:#ffffff;background-color:goldenrod;padding:10px; text-align: center;">
+                        Lo sentimos, no hay resultados con los criterios enviados.
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        {% endif %}
+
+        <div id="tabla-modelos">	
+            
+            {% for celular in celulares %}
+            <div class="nombremodelo ">
+                <a href="{% url 'Celular' celular.id %}">
+                    <div class="image-wrapper ">
+                       {% if celular.imagen %} <img src="/media/{{ celular.imagen }}" alt="{{ celular.nombre }}" class="imagendiv" />{% endif %}
+                        
+                    </div>
+                    <span class="textonombre">{{ celular.nombre }}</span>
+                </a>
+            </div>
+            {% endfor %}
+
+             
+        </div>
+    </div>
+       
+</div> 
+{% endblock%}

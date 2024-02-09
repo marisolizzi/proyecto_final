@@ -1,0 +1,36 @@
+
+{% extends 'Sitio/base.html'%}
+{% load static %}
+{% block bloquePrincipal%}
+<div id="cabezal-marcas" class="marcas-centradas">     
+    <h3 class="seccion-titulo">Celulares</h3>
+    <h3 class="seccion-descrip">Selecciona la <b>marca</b> de tu celular.</h3>
+
+
+    {% if bienvenido_usuario %}
+    <!---<div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-11 col-md-7">
+            <div class="my-11">
+                <div class="sent-message" style="color:#ffffff;background-color:goldenrod;padding:10px; text-align: center;">
+                    Bienvenido <strong>{{ bienvenido_usuario }}</strong>!! Administra tus celulares <a href='/sasasas/' style="color:#ffffff; text-decoration: underline;">desde aquí</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>-->
+    {% endif %}
+    <div id="tabla-marcas">
+    {% for marca in marcas %}
+    <div>
+        <a href="{% url 'Marca' marca.id %}">
+            <div>
+                <img src="/media/{{ marca.imagen }}" alt="{{ marca.nombre }}" title="{{ marca.nombre }}">
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+    </div>
+       
+</div> 
+{% endblock%}

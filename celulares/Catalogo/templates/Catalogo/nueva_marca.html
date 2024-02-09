@@ -1,0 +1,39 @@
+{% extends 'Sitio/base.html'%}
+{% load static %}
+
+{% block bloquePrincipal%}
+<div id="cabezal-marcas" class="marcas-centradas">  
+<h3 class="seccion-titulo">Nueva Marca</h3>
+{% include 'Catalogo/menu_gestion.html' %}
+<section class="contact section-bg">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-5 col-md-7">
+          {% if mensaje %}
+            <div class="my-3">
+            <div class="sent-message" style="color:#ffffff;background-color:goldenrod;padding:10px;">
+                {{ mensaje}}
+            </div>
+        </div>
+        {% endif %}
+          <form action="{% url 'Nueva Marca' %}" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
+            <div class="form-group">
+                {{ formulario.nombre }}
+            </div>
+            <div class="form-group mt-4">
+              {{ formulario.imagen }}
+             </div>
+            <div class="form-group mt-3">
+                {{ formulario.detalle }}
+            </div>
+            <div class="text-center mt-3">
+                {% csrf_token %}
+                <button type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+     </div>
+    </div>
+  </section>
+</div>
+{% endblock%}

@@ -1,0 +1,38 @@
+
+{% extends 'Sitio/base.html'%}
+{% load static %}
+{% block bloquePrincipal%}
+<div id="cabezal-marcas" class="marcas-centradas">     
+    <h3 class="seccion-titulo">Modelo {{ celular.nombre }}</h3>
+    <h3 class="seccion-descrip">Verifica el detalle de tu modelo.</h3>
+    <div class="modelos">
+    <div class="marca-imagen">
+        <img src="/media/{{ marca.imagen }}" alt="{{ marca.nombre }}">
+        
+        <a href="{% url 'Marca' marca.id %}"><< Volver a {{ marca.nombre }}</a>
+        
+    </div>
+    </div>
+    <hr>
+
+<br>
+<div style="position: relative;">
+    <div style="
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    height: 100%; overflow: hidden;">
+        <p>
+            <img src="/media/{{ celular.imagen }}" alt="{{ celular.nombre }}" align="left" style="margin-right: 20px;">
+            <h3>{{ celular.nombre }}</h3>    
+        {{ celular.detalle|safe}}
+    
+    </p>
+    </div>
+    </div>
+       
+</div> 
+{% endblock%}
