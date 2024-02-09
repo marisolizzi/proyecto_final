@@ -27,7 +27,7 @@ Los usuarios que acceden verán las Marcas y Productos. Mientras que al logearse
 <p> <strong>Algunas pantallas</strong></p>
 <p>Inicio de la web, donde se visualizan las marcas.<br>
 
-<span>(</span><span>(https://github.com/marisolizzi/proyecto_final/assets/70345802/080944f0-988d-4e83-9599-703e77ebb994)</span><span>)</span>
+<img src="https://github.com/marisolizzi/proyecto_final/assets/70345802/080944f0-988d-4e83-9599-703e77ebb994">
 
 <p>Vista de los modelos por Marca.<br>
 
